@@ -19,7 +19,7 @@ void setup()
   Serial.begin(115200);
   InitializeControlHardware();
   AddOnOffControl("Open",HEEP_OUTPUT,0);
-  StartHeep("CloseOpenSensor", 6);
+  StartHeep(heepDeviceName, 6);
 
 }
 
